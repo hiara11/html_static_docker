@@ -1,0 +1,9 @@
+---
+version: "3"
+services:
+    client:
+        image: nginx
+        ports:
+            - "80:80"
+        volumes:
+            - C:\Users\hiara.eger\Downloads\ads4\trabalho2\www:/usr/share/nginx/html
